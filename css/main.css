@@ -1,13 +1,7 @@
-/* ====================================
-// css variables
-// ==================================== */
-
 :root {
+  --red: #df0000;
+  --beige: #e7e7db;
 }
-
-/* ====================================
-// reset rules
-// ==================================== */
 
 * {
   box-sizing: border-box;
@@ -23,9 +17,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  max-width: 414px;
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 a {
@@ -39,6 +34,11 @@ video {
   vertical-align: text-top;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+h1 {
+  padding: 15px 0;
+  background-color: var(--beige);
+}
+
+.top-img {
+  border: solid var(--red) 3px 0;
+}
