@@ -1,6 +1,7 @@
 :root {
   --red: #df0000;
   --beige: #e7e7db;
+  --black: #172632;
 }
 
 * {
@@ -21,6 +22,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -41,4 +43,34 @@ h1 {
 
 .top-img {
   border: solid var(--red) 3px 0;
+}
+
+.red-text {
+  color: var(--red);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--black);
+  padding: 25px 0;
+  border: solid var(--red);
+  border-width: 0 0 1px 0;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+p {
+  margin: 15px 37px;
+}
+
+.sous-titre {
+  font-size: 21px;
+}
+
+.section p {
+  font-size: 16px;
+  font-weight: 400;
 }
