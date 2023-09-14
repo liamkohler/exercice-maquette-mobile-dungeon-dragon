@@ -83,3 +83,14 @@ p {
 .img-background img {
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
 }
+
+button {
+  color: #fff;
+  background-color: var(--red);
+  border: none;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
