@@ -74,3 +74,12 @@ p {
   font-size: 16px;
   font-weight: 400;
 }
+
+.img-background {
+  background-color: var(--red);
+  padding: 25px 0;
+}
+
+.img-background img {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
